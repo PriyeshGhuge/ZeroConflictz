@@ -1,0 +1,34 @@
+{
+  "name": "zeroconflictz",
+  "version": "1.0.0",
+  "description": "ZeroConflictz - Automated Calendar and Scheduling Conflict Resolution System with Gemma 4 AI",
+  "main": "src/api/server.ts",
+  "scripts": {
+    "start": "tsx src/api/server.ts",
+    "dev": "tsx watch src/api/server.ts",
+    "test": "tsx --test src/engine/__tests__/engine.test.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "calendar",
+    "scheduling",
+    "conflict-resolution",
+    "constraint-solver",
+    "gemma-4",
+    "ai-agent"
+  ],
+  "author": "ZeroConflictz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
